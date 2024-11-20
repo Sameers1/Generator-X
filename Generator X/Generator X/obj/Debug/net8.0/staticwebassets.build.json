@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eWFlF8TV3Zy6Yq33Fsz5t440nvb8/eHYEFr0PVATh3M=",
+  "Hash": "Bd4Kuf0R0gLhpuD9HugPGgYaeEu/XpSVizl+ygl1YFw=",
   "Source": "`Generator_X",
   "BasePath": "_content/`Generator_X",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "`Generator_X\\wwwroot",
       "Source": "`Generator_X",
-      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\",
       "BasePath": "_content/`Generator_X",
       "Pattern": "**"
     }
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\favicon.ico",
       "SourceId": "`Generator_X",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\",
       "BasePath": "_content/`Generator_X",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -157,7 +157,7 @@
     },
     {
       "Route": "favicon.2jeq8efc6q.ico",
-      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -202,7 +202,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {

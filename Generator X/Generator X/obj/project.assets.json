@@ -706,11 +706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\Generator X.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Generator X.csproj",
       "projectName": "`Generator_X",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\Generator X.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Generator X.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

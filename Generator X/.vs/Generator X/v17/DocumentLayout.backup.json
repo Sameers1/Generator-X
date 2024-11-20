@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|c:\\users\\administrator\\source\\repos\\generator-x\\generator x\\generator x\\components\\pages\\randomnumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|solutionrelative:generator x\\components\\pages\\randomnumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomNumber.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\RandomNumber.razor",
+              "RelativeDocumentMoniker": "Generator X\\Components\\Pages\\RandomNumber.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\RandomNumber.razor",
+              "RelativeToolTip": "Generator X\\Components\\Pages\\RandomNumber.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:15:09.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d9Kk9V4nNmo=",
+  "dgSpecHash": "JRzpzxx3+sQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Generator X\\Generator X\\Generator X.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Generator X.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
