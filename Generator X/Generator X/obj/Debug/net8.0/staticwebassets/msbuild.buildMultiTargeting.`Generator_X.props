@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\`Generator_X.props" />
+</Project>

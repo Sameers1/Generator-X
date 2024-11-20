@@ -1,0 +1,111 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="@_theme" IsDarkMode="_isDarkMode" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout Class="full-height-layout">
+    <!-- Top Navigation Bar -->
+    <MudAppBar Elevation="3" Class="futuristic-appbar">
+        <!-- App Title -->
+        <MudText Typo="Typo.h5" Class="ml-5 futuristic-title text-dark">GENERATOR X</MudText>
+
+        <!-- Navigation Buttons (Styled as Boxes) -->
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/home"))">Random Numbers</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/features"))">Dice</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/contact"))">Flip a Coin</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/pricing"))">Unique Numbers</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/contact"))">Password Generator</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/contact"))">YES / NO</MudButton>
+        <MudButton Variant="Variant.Filled" Class="ml-7 nav-link text-white box-style" OnClick="@(() => NavigateTo("/contact"))">YES / NO</MudButton>
+
+        <!-- Spacer to push icons to the right -->
+        <MudSpacer />
+
+        <!-- Dark Mode Toggle -->
+        <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
+    </MudAppBar>
+
+    <!-- Main Content -->
+    <MudMainContent Class="mt-16 pa-4 futuristic-maincontent">
+        @Body
+    </MudMainContent>
+
+    <!-- Footer -->
+    <MudFooter Class="futuristic-footer text-center py-3">
+        <MudText Typo="Typo.body1" Class="text-dark">© 2024 Generator X. All rights reserved to UTS.</MudText>
+    </MudFooter>
+</MudLayout>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+@code {
+    private bool _isDarkMode = true;
+    private MudTheme? _theme = null;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        _theme = new()
+        {
+            PaletteLight = _lightPalette,
+            PaletteDark = _darkPalette
+        };
+    }
+
+    private void DarkModeToggle()
+    {
+        _isDarkMode = !_isDarkMode;
+    }
+
+    private void NavigateTo(string url)
+    {
+        NavigationManager.NavigateTo(url);
+    }
+
+    [Inject] private NavigationManager NavigationManager { get; set; } = null!;
+
+    private readonly PaletteLight _lightPalette = new()
+    {
+        AppbarText = "#2D2D2D", // Dark gray for app bar text
+        AppbarBackground = "#FFFFFF", // White for app bar background
+    };
+
+    private readonly PaletteDark _darkPalette = new()
+    {
+        AppbarText = "#D4AF37", // Light golden for app bar text
+        AppbarBackground = "#1E1E1E", // Dark background
+    };
+
+    public string DarkLightModeButtonIcon => _isDarkMode switch
+    {
+        true => Icons.Material.Rounded.AutoMode,
+        false => Icons.Material.Outlined.DarkMode,
+    };
+}
+
+<style>
+    /* Ensure full height layout */
+    .full-height-layout {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    /* Main content takes available space, pushing footer to the bottom */
+    .futuristic-maincontent {
+        flex: 1;
+    }
+
+    /* Styling the Footer */
+    .futuristic-footer {
+        background-color: #2c2c3c;
+        color: #D4AF37;
+    }
+</style>

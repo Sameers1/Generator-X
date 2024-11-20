@@ -1,0 +1,44 @@
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\appsettings.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.staticwebassets.runtime.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.staticwebassets.endpoints.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.exe
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.deps.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.runtimeconfig.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\`Generator_X.pdb
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\bin\Debug\net8.0\MudBlazor.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\`Generator_X.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\scopedcss\bundle\`Generator_X.styles.css
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets\msbuild.`Generator_X.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets\msbuild.`Generator_X.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets\msbuild.build.`Generator_X.props
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.`Generator_X.props
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.`Generator_X.props
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generato.AE56B63B.Up2Date
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\`Generator_X.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\refint\`Generator_X.dll
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\`Generator_X.pdb
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\Generator X.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Generator X\Generator X\obj\Debug\net8.0\ref\`Generator_X.dll
