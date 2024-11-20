@@ -1,0 +1,28 @@
+﻿@page "/randomnumber"
+
+
+<MudPaper Height="400px" Width="100%">
+    <MudContainer MaxWidth="MaxWidth.Small" Class="d-flex justify-center align-center">
+        <MudPaper Height="400px" Width="100%" Square="true" Class="mud-theme">
+            <MudTextField @bind-Value="RNGValue" Label="Randomized Number" ReadOnly="true" Variant="Variant.Outlined"> </MudTextField>
+            <MudTextField @bind-Value="startValue" Label="Starting" ReadOnly="false" Variant="Variant.Outlined"> </MudTextField>
+            <MudTextField @bind-Value="endValue" Label="Ending" ReadOnly="false" Variant="Variant.Outlined"> </MudTextField>
+            <MudButton @onclick="randomizeNumber" >Click Me</MudButton>
+        </MudPaper>
+    </MudContainer>
+</MudPaper>
+
+
+@code {
+    public int RNGValue = 0;
+    public int startValue = 1;
+    public int endValue = 101;
+
+    private async Task randomizeNumber()
+    {
+        await Task.Delay(200);
+        Random random = new Random();
+       RNGValue = random.Next(startValue, endValue); // Generates a number between 1 and 100
+
+    }
+}
