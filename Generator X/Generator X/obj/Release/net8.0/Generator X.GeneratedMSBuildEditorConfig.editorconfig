@@ -35,12 +35,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Generator-X/Generator X/Generator X/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+[C:/Users/Administrator/source/repos/Generator-X/Generator X/Generator X/Components/Pages/DiceRoll.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaWNlUm9sbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Generator-X/Generator X/Generator X/Components/Pages/RandomNumber - Copy.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSYW5kb21OdW1iZXIgLSBDb3B5LnJhem9y
+[C:/Users/Administrator/source/repos/Generator-X/Generator X/Generator X/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrator/source/repos/Generator-X/Generator X/Generator X/Components/Pages/RandomNumber.razor]

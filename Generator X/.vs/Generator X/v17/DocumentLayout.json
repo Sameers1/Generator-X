@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|c:\\users\\administrator\\source\\repos\\generator-x\\generator x\\generator x\\components\\pages\\diceroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|solutionrelative:generator x\\components\\pages\\diceroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|c:\\users\\administrator\\source\\repos\\generator-x\\generator x\\generator x\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|solutionrelative:generator x\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|c:\\users\\administrator\\source\\repos\\generator-x\\generator x\\generator x\\components\\pages\\randomnumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3BFAF406-9DCE-4E8F-B5E3-3EE56481997C}|Generator X\\Generator X.csproj|solutionrelative:generator x\\components\\pages\\randomnumber.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +34,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Generator X\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Generator X\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:28:21.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DiceRoll.razor",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\DiceRoll.razor",
+              "RelativeDocumentMoniker": "Generator X\\Components\\Pages\\DiceRoll.razor",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\DiceRoll.razor*",
+              "RelativeToolTip": "Generator X\\Components\\Pages\\DiceRoll.razor*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:27:41.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RandomNumber.razor",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\RandomNumber.razor",
               "RelativeDocumentMoniker": "Generator X\\Components\\Pages\\RandomNumber.razor",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\Components\\Pages\\RandomNumber.razor",
               "RelativeToolTip": "Generator X\\Components\\Pages\\RandomNumber.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T13:15:09.344Z",
               "EditorCaption": ""

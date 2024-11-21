@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-0.png",
+      "PackagePath": "staticwebassets\\images\\dice-0.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-1.png",
+      "PackagePath": "staticwebassets\\images\\dice-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-2.png",
+      "PackagePath": "staticwebassets\\images\\dice-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-3.png",
+      "PackagePath": "staticwebassets\\images\\dice-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-4.png",
+      "PackagePath": "staticwebassets\\images\\dice-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-5.png",
+      "PackagePath": "staticwebassets\\images\\dice-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\source\\repos\\Generator-X\\Generator X\\Generator X\\wwwroot\\images\\dice-6.png",
+      "PackagePath": "staticwebassets\\images\\dice-6.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.`Generator_X.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

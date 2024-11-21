@@ -1,45 +1,36 @@
-﻿@page "/randomnumber"
+﻿@page "/dice"
 
 <MudPaper Height="100vh" Width="100%" Class="d-flex justify-center align-center" Style="background-color: #1f1f1f; color: white;">
     <MudContainer MaxWidth="MaxWidth.Small" Class="d-flex flex-column justify-center align-center">
-
+        <img src="@($"images/dice-{rngDice}.png")" alt="Number @rngDice" class="mt-4" width="100" />
+        <MudDivider DividerType="DividerType.Middle" Class="my-6" />
         <!-- Title -->
         <MudText Class="mb-1" Variant="Variant.H1" Align="Align.Center" Style="font-weight: 600; color: gold;">
-            Random Number Generator
+            Roll Dice
         </MudText>
 
         <!-- Display Random Number -->
-        <MudTextField @bind-Value="RNGValue" Label="Randomized Number" ReadOnly="true" Variant="Variant.Outlined" Class="mb-4" Style="background-color: #333333; border-color: gold; color: white; font-size: 1.5rem; text-align: center;" />
+        <MudTextField @bind-Value="rngDice" Label="Randomized Number" ReadOnly="true" Variant="Variant.Outlined" Class="mb-4" Style="background-color: #333333; border-color: gold; color: white; font-size: 1.5rem; text-align: center;" />
 
-        <!-- Starting Value Input -->
-        <MudTextField @bind-Value="startValue" Label="Starting Value" Variant="Variant.Outlined" Type="Number" Class="mb-3" Style="background-color: #333333; border-color: gold; color: white;" />
-
-        <!-- Ending Value Input -->
-        <MudTextField @bind-Value="endValue" Label="Ending Value" Variant="Variant.Outlined" Type="Number" Class="mb-4" Style="background-color: #333333; border-color: gold; color: white;" />
-
-        <!-- Generate Button -->
-        <MudButton @onclick="randomizeNumber" Color="Color.Primary" Variant="Variant.Filled" FullWidth="true" Style="background-color: darkseagreen; color: white; font-size: 1.1rem; border-radius: 8px;">
-            Generate Random Number
+        <MudButton @onclick="rollDice" Color="Color.Primary" Variant="Variant.Filled" FullWidth="false" Style="background-color: darkseagreen; color: white; font-size: 1.1rem; border-radius: 8px;">
+            Rolling Dice
         </MudButton>
     </MudContainer>
 </MudPaper>
 
 @code {
-    private int RNGValue = 0;
-    private int startValue = 1;
-    private int endValue = 101;
-
-    private async Task randomizeNumber()
+    private int rngDice = 0;
+    private async Task rollDice()
     {
-        // Basic validation
-        if (startValue >= endValue)
+        for (int i = 0; i < 20; i++)
         {
-            RNGValue = 0; // Reset the value if the range is invalid
-            return;
+            await Task.Delay(50);
+            Random random1 = new Random();
+            rngDice = random1.Next(1, 6);
+            StateHasChanged();
         }
 
-        // Generate random number within the given range
         Random random = new Random();
-        RNGValue = random.Next(startValue, endValue);
+        rngDice = random.Next(1, 6);
     }
 }

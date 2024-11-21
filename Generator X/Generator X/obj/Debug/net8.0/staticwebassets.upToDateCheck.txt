@@ -1,1 +1,8 @@
 wwwroot\favicon.ico
+wwwroot\images\dice-0.png
+wwwroot\images\dice-1.png
+wwwroot\images\dice-2.png
+wwwroot\images\dice-3.png
+wwwroot\images\dice-4.png
+wwwroot\images\dice-5.png
+wwwroot\images\dice-6.png
